@@ -17,3 +17,14 @@ git push
 go to local copy by cd
 git pull to check what is transaction happened and to get all the latest changes push in the repository
 
+
+if with conflict with thesame files
+git status to check if there are conflict and why
+git pull to have the latest
+now having conflict see the file with conflict
+edit it manuall remove the conflict lines
+then git add -A
+git commit -m "conflict fix"
+git push
+
+
