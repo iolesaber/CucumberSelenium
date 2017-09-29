@@ -1,3 +1,14 @@
-<tr>
-	<td> hi </td>
-</tr>
+How to create local copy
+
+Cd to your wanted destination
+then git clone "URL OF REPOSITORY"
+then cd to your local copy
+add files there
+then type git status
+to check if there are files that were not added
+git add (name of the file.property)
+git status
+to check if it was added or if there are errors
+git commit -m "your comment on commit"
+then if you want to add that to Master branch
+git push
